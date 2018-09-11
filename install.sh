@@ -63,7 +63,9 @@ mkdir -p $projectPath/logs/nginx
 mkdir -p $projectPath/logs/php
 
 #install php ext
-#$workPath/$project/php/bin/pecl install yaf-2.2.9
-#$workPath/$project/php/bin/pecl install apcu-4.0.7
-#$workPath/$project/php/bin/pecl install swoole-1.7.6
-#$workPath/$project/php/bin/pecl install memcache-2.2.7 
+$workPath/$project/php/bin/pecl install yaf-2.2.9
+$workPath/$project/php/bin/pecl install apcu-4.0.7
+$workPath/$project/php/bin/pecl install swoole-1.7.6
+$workPath/$project/php/bin/pecl install memcache-2.2.7 
+$workPath/$project/php/bin/pecl install zookeeper
+$workPath/$project/php/bin/pecl install redis
