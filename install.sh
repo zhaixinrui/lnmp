@@ -23,9 +23,6 @@ fi
 #创建项目目录
 mkdir -p $projectPath
 
-# 安装依赖包
-yum install -y gcc gcc-c++ libatomic_ops-devel.x86_64 libxml2.x86_64 libxml2-devel openssl-devel.x86_64 libcurl-devel.x86_64 libjpeg-devel libpng-devel freetype-devel libmcrypt-devel.x86_64 libatomic_ops-devel.x86_64
-
 #编译安装nginx
 #解压nginx
 rm -rf $srcPath/nginx-1.8.1
