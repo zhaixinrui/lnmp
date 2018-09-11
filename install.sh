@@ -59,6 +59,9 @@ replace {NGINX_PORT}   $nginxPort
 replace {PHP_PORT}     $phpPort
 replace {PROJECT_NAME} $project
 
+mkdir -p $projectPath/logs/nginx
+mkdir -p $projectPath/logs/php
+
 #install php ext
 #$workPath/$project/php/bin/pecl install yaf-2.2.9
 #$workPath/$project/php/bin/pecl install apcu-4.0.7
